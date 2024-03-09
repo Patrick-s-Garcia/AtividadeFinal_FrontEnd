@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    top: 0;
+    margin: 0;
+    float: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bloco_laranja{
+    height: 100vh;
+    width: 30vw;
+    background-color: chocolate;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50vh;
+    right: 5vw;
+    font-size: 2vw;
+}
+
+a{
+    text-decoration: none;
+    margin-top: 1vh ;
+    color: rgb(167, 167, 167);
+}
+
+.link_selecionado{
+    color: rgb(231, 229, 229);
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    left: 8vw;
+    top: 17vh;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.informacoes div {
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    font-size: 9.7vh;
+    color:darkgrey ;
+    position: relative;
+    right: 4vw;
+}
+
+.sobrenome{
+    float: none;
+    color: chocolate;
+}
+
+.endereco{
+    color: chocolate;
+    font-size: 2.2vh;
+    position: relative;
+    right: 3.8vw;
+    top: -2VH;
+}
+
+.informacoes{
+    position: relative;
+    top: 25vh;
+    
+
+}
+
+.descricao{
+    color: rgb(128, 124, 124);
+    font-size: 2vh;
+    margin-top: 7vh;
+    position: relative;
+    left: 2vw;
+
+
+
+}
+
+.email{
+    float: none;
+    color: rgb(128, 124, 124);
+}
+
+.redes img{
+    float: none;
+    width: 4vw;
+    height: auto;
+    margin: 3vw;
+}
+
+.redes{
+    position: relative;
+    top: 55vh;
+    right: 48vw;
+}
+
+.conhecimentos{
+    color: rgb(128, 124, 124);
+    font-size: 5vh;
+    position: relative;
+    left: 6vw; 
+    top: 15vh;
+    
+}
+
+.conhecimentos li {
+    float: none;
+    margin-top: 7vh;    
+}
+
+
+.objetivos{
+    color: rgb(128, 124, 124);
+    font-size: 5vh;
+    position: relative;
+    left: 5vw; 
+    top: -10vh;
+    
+}
+
+.objetivos li {
+    float: none;
+    margin-top: 7vh;    
+}
