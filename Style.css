@@ -61,7 +61,7 @@ a{
     font-size: 9.7vh;
     color:darkgrey ;
     position: relative;
-    right: 4vw;
+    right: 12.5vw;
 }
 
 .sobrenome{
@@ -73,7 +73,7 @@ a{
     color: chocolate;
     font-size: 2.2vh;
     position: relative;
-    right: 3.8vw;
+    right: 12.5vw;
     top: -2VH;
 }
 
